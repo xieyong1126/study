@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f9144a6-c550-4631-925b-24a4349311d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/LoginSerializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/admin_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/brands_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/goods_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/goodschannel_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/group_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/home_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/image_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/option_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/orders_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/perms_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/sku_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/spu_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/user_serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/utils/jwt_reponse_handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/utils/pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/LoginView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/admin_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/brands_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/goods_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/goodschannel_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/group_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/image_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/option_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/orders_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/perms_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/sku_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/spu_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/user_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/celery_tasks/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/logs/meiduo.log" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/logs/meiduo.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/fastdfs_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/fastdfs_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/uwsgi.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/pages/Order.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/pages/Order.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/pages/OrderDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/pages/OrderDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/pages/SpuAdd.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/pages/SpuAdd.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/pages/SpuEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/pages/SpuEdit.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddAdmin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddAdmin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddAuthor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddAuthor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddBrands.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddBrands.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddChannels.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddChannels.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddGroup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddGroup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddOptions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddOptions.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddPictures.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddPictures.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddSku.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddSku.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddSpecs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AddSpecs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AdminTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AdminTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AuthorityTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/AuthorityTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/BrandsTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/BrandsTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/ChannelsTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/ChannelsTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/GroupTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/GroupTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/OptionsTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/OptionsTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/PicturesTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/PicturesTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/PieGraph.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/PieGraph.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/SkuTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/SkuTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/SpecsTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/SpecsTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/SpuTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/components/widget/SpuTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall_admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall_admin/src/router/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="meiduo_mis_db@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="meiduo_mis_db@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="meiduo_mis_db@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="meiduo_mis_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/home_serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/utils/pages.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/user_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/user_serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/celery_tasks/html/tasks.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/sku_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/goods_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/sku_serializers.py" />
+        <option value="$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/rest_framework/serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/client.conf" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/goods_serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/option_serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/option_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/spu_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/goodschannel_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/goodschannel_serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/brands_serializer.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/brands_serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/brands_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/demo.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/image_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/image_serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/fastdfs_storage.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/models.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/orders_serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall_admin/src/components/pages/OrderDetail.vue" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/utils.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/uwsgi.ini" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/wsgi.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall_admin/src/components/constant.js" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/perms_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/perms_serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/spu_serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/group_serializers.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/group_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/utils/jwt_reponse_handlers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/dev.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/admin_serializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/admin_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/orders_views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/tests.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/utils.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/LoginSerializers.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/LoginView.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/urls.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/meiduo_mis_sz37.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1183" />
+    <option name="height" value="851" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="meiduo_mis_sz37" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meiduo_mis_sz37" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Updates" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.Django">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="meiduo_mis_sz37" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="meiduo_mis_sz37" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meiduo_mall" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meiduo_mall/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="meiduo_mis_sz37" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="meiduo_mis_sz37" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="meiduo_mis_sz37" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Django" type="Python.DjangoServer" factoryName="Django server">
+      <module name="meiduo_mis_sz37" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="meiduo_mall.settings.dev" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/untitled1/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meiduo_mall" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="127.0.0.1" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.Django" />
+      <item itemvalue="Python.tests" />
+      <item itemvalue="Python.tests (1)" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.demo" />
+      <item itemvalue="Python.tests (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tests (2)" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.tests (1)" />
+        <item itemvalue="Python.tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f9144a6-c550-4631-925b-24a4349311d3" name="Default Changelist" comment="" />
+      <created>1594528560979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594528560979</updated>
+      <workItem from="1594528564477" duration="28899000" />
+      <workItem from="1594647581472" duration="13609000" />
+      <workItem from="1594695017198" duration="77594000" />
+      <workItem from="1595154006284" duration="12000" />
+      <workItem from="1595220792214" duration="14575000" />
+      <workItem from="1595512943852" duration="5433000" />
+      <workItem from="1595734301447" duration="678000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="140800000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1177" height="850" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2151111" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32863188" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32630098" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35021096" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32722145" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.325811" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.34552455" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/meiduo_mis_sz37$tests__1_.coverage" NAME="tests (1) Coverage Results" MODIFIED="1594607584516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin" />
+    <SUITE FILE_PATH="coverage/meiduo_mis_sz37$demo.coverage" NAME="demo Coverage Results" MODIFIED="1594822257127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs" />
+    <SUITE FILE_PATH="coverage/meiduo_mis_sz37$manage.coverage" NAME="manage Coverage Results" MODIFIED="1594657215320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall" />
+    <SUITE FILE_PATH="coverage/meiduo_mis_sz37$tests.coverage" NAME="tests Coverage Results" MODIFIED="1594553287212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas" />
+    <SUITE FILE_PATH="coverage/meiduo_mis_sz37$tests__2_.coverage" NAME="tests (2) Coverage Results" MODIFIED="1594973335513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://781e7320-e666-491d-97be-d79f83b953cc/schema/meiduo_mis_db/table/tb_users_groups">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="4bfcc9dc-78a4-442b-9e36-9a5d1bf1e423">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://781e7320-e666-491d-97be-d79f83b953cc/schema/meiduo_mis_db/table/auth_group">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="4bfcc9dc-78a4-442b-9e36-9a5d1bf1e423">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/group_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://781e7320-e666-491d-97be-d79f83b953cc/schema/meiduo_mis_db/table/auth_group_permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="4bfcc9dc-78a4-442b-9e36-9a5d1bf1e423">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
+          <folding>
+            <element signature="e#1049#3008#0" />
+            <element signature="e#3051#3211#0" />
+            <element signature="e#5938#6143#0" />
+            <element signature="e#6187#6551#0" />
+            <element signature="e#6603#6983#0" />
+            <element signature="e#12483#14363#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/admin_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/orders_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://781e7320-e666-491d-97be-d79f83b953cc/schema/meiduo_mis_db/table/django_content_type">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="4bfcc9dc-78a4-442b-9e36-9a5d1bf1e423">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://781e7320-e666-491d-97be-d79f83b953cc/schema/meiduo_mis_db/table/auth_permission">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="4bfcc9dc-78a4-442b-9e36-9a5d1bf1e423">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/rest_framework/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/orders_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/jwt/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/jwt/api_jwt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/jwt/api_jws.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/django/contrib/auth/backends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#35#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/dev.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="345" selection-start-line="345" selection-end-line="345" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#227#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/user_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/rest_framework/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+          <folding>
+            <element signature="e#4515#4782#0" />
+            <element signature="e#4850#6115#0" />
+            <element signature="e#13633#14058#0" />
+            <element signature="e#14114#14212#0" />
+            <element signature="e#14268#14367#0" />
+            <element signature="e#14403#14758#0" />
+            <element signature="e#14798#15074#0" />
+            <element signature="e#15111#15749#0" />
+            <element signature="e#15796#16065#0" />
+            <element signature="e#16887#17328#0" />
+            <element signature="e#17375#17686#0" />
+            <element signature="e#17735#19003#0" />
+            <element signature="e#19056#19910#0" />
+            <element signature="e#19997#20050#0" />
+            <element signature="e#20056#20124#0" />
+            <element signature="e#20269#20344#0" />
+            <element signature="e#20386#20762#0" />
+            <element signature="e#20951#21017#0" />
+            <element signature="e#21063#21488#0" />
+            <element signature="e#32733#33767#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/rest_framework_jwt/compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/LoginView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/LoginSerializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/utils/jwt_reponse_handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/rest_framework_jwt/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/rest_framework_jwt/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/rest_framework_jwt/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="99" column="15" lean-forward="true" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="15" />
+          <folding>
+            <element signature="e#2284#2405#0" />
+            <element signature="e#2445#2620#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
+          <folding>
+            <element signature="e#83#115#0" expanded="true" />
+            <element signature="e#6420#6700#0" />
+            <element signature="e#6758#7165#0" />
+            <element signature="e#7031#7165#0" />
+            <element signature="e#7211#7666#0" />
+            <element signature="e#8083#8265#0" />
+            <element signature="e#8323#8539#0" />
+            <element signature="e#8632#8830#0" />
+            <element signature="e#8869#9029#0" />
+            <element signature="e#9066#9218#0" />
+            <element signature="e#9262#9425#0" />
+            <element signature="e#9466#9635#0" />
+            <element signature="e#9674#9831#0" />
+            <element signature="e#9879#10110#0" />
+            <element signature="e#10157#10278#0" />
+            <element signature="e#10394#10797#0" />
+            <element signature="e#10854#11143#0" />
+            <element signature="e#11195#11576#0" />
+            <element signature="e#11640#12052#0" />
+            <element signature="e#12102#12812#0" />
+            <element signature="e#12472#12812#0" />
+            <element signature="e#12881#13241#0" />
+            <element signature="e#13335#13698#0" />
+            <element signature="e#13757#14506#0" />
+            <element signature="e#14585#15766#0" />
+            <element signature="e#15813#16660#0" />
+            <element signature="e#16715#17015#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/untitled1/lib/python3.6/site-packages/rest_framework_jwt/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="79" column="36" lean-forward="true" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/781e7320-e666-491d-97be-d79f83b953cc/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/admin_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/brands_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/goodschannel_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/group_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/home_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/image_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/goods_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="117" column="6" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/spu_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/client.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/utils/pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#11#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/sku_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/sku_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/meiduo_admin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1011">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
